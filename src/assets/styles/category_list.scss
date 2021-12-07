@@ -1,0 +1,143 @@
+
+
+// @media( max-width : 1920px) {
+//   .cateogy-container{
+//     padding: 0 280px;
+//   }
+//   .list-content{
+//     padding: 0 273px;
+//     margin-top: 50px;
+//   }
+
+// }
+
+// @media( max-width : 1440px) {
+//   .cateogy-container{
+//     padding: 0 40px;
+//   }
+//   .list-content{
+//     padding: 0 40px;
+//     margin-top: 50px;
+//   }
+
+// }
+
+  .cateogy-container{
+    padding: 0 40px;
+  }
+  .list-content{
+    padding: 0 40px;
+    margin-top: 50px;
+  }
+
+.cate_list {
+  padding: 0 40px!important;
+  .cate-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .cate-sub {
+      display: flex;
+      width: 50%;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media (max-width: 1350px) {
+  .cate_list {
+    padding: 0 25px;
+    .cate-row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .cate-sub {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+@media (max-width: 526px) {
+  .cate-row {
+    flex-direction: row!important;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .cate_list {
+    padding: 0 25px;
+    .cate-row {
+      justify-content: center;
+      align-items: center;
+      .cate-sub {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .sort-button-container {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1220px) {
+  .cateogy-container {
+    padding: 0 25px;
+    flex-direction: column !important;
+    .sort-button-container {
+     // margin-bottom: 20px;
+     display: none !important;  
+    }
+  }
+  .sort-btn-area {
+    justify-content: space-between;
+  }
+  
+}
+
+
+.list-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .card-item {
+    margin: 0 7px;
+  }
+}
+
+
+
+@media (max-width : 1366px) {
+  .list-content {
+    .card-item {
+      margin: 49 auto;
+    }
+  }
+}
+
+@media (max-width: 526px) {
+  .list-content {
+   padding: 0 16px;
+  }
+}
+
+
+// .list-content {
+//   margin-top: 50px;
+//   padding: 0 40px;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   .card-item{
+//     padding: 0 10px;
+//   }
+// }

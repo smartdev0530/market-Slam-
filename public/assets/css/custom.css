@@ -1,0 +1,438 @@
+#slam{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detail-img {
+  width: 150px;
+  height: 150px;
+  background-image: url("/assets/img/bg_avatar.png");
+  transform: translateY(-60%);
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.ant-tabs-tab {
+  margin: 0 46px !important;
+}
+.coin-card-container {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  background: white;
+}
+.card-down {
+  margin-top: -280px;
+}
+.card-down-sm {
+  margin-top: -136px;
+}
+.image-card-contaier {
+  display: flex;
+  margin-bottom: 25px;
+  flex-direction: column;
+  width: 325px;
+  padding: 15px 15px 22px 15px;
+  background: #F0F5FB;
+  border-radius: 25px;
+  box-shadow: 1px 2px 12px rgba(73, 13, 13, 0.03);
+}
+.image-card-contaier-sm{
+  display: flex;
+  margin-bottom: 25px;
+  flex-direction: column;
+  width: 157px;
+  height: 265px;
+  padding: 7px 15px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.03);
+}
+.btn-rounded {
+  border-radius: 12px !important;
+}
+.btn-buy {
+  font-family: "SFProDisplay";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.custom-btn {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "SFProDisplay";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.small-btn {
+  padding: 5px 9px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "SFProDisplay";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 9px;
+  line-height: 11px;
+  width: fit-content;
+}
+
+
+.header-btn {
+  padding: 10px 34px;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "SFProDisplay";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+
+.with-icon-container {
+  position: relative;
+ padding: 0 10px;
+}
+.with-icon-btn {
+  padding: 24px 27px;
+  border-radius: 15px;
+  border: 1px solid #e1e4eb;
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  min-width: 181px;
+}
+.drop-icon-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px 24px 30px;
+  border-radius: 15px;
+  border: 1px solid #e1e4eb;
+  width: 210px;
+}
+.card-top {
+  width: 270px;
+  height: 270px;
+  background-image: url("/assets/img/card1.png");
+  background-size: 100% 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+}
+.coin-card-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: rgba(0, 0, 0, 0.85) !important;
+  text-shadow: none !important;
+}
+.ant-tabs-tab:hover {
+  color: rgba(0, 0, 0, 0.85) !important;
+  text-shadow: 0 !important;
+}
+
+.create-option-thumb-img1 {
+  position: relative;
+  width: 295px;
+  margin-top: 20px;
+  height: auto;
+  vertical-align: bottom;
+  filter: blur(10px);
+  transform: scale(0.95);
+} 
+.create-option-thumb-img2 {
+  width: 295px;
+  height: auto;
+  vertical-align: bottom;
+  transform: translateY(-103%);
+}
+
+
+.create-option-thumb-img1-sm {
+  position: relative;
+  width: 140px;
+  margin-left: -5px;
+  margin-top: 20px;
+  vertical-align: bottom;
+  filter: blur(10px);
+  transform: scale(0.95);
+} 
+.create-option-thumb-img2-sm {
+  width: 140px;
+  margin-left: -5px;
+  vertical-align: bottom;
+  transform: translateY(-103%);
+}
+
+.sub_sort {
+  top: 82px;
+  left: 10px;
+  position: absolute;
+  width: 300px;
+  background: white;
+  border-radius: 15px;
+  padding: 0 15px 15px 15px;
+  border: 1px solid #e1e4eb;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.sub_cateory {
+  top: 82px;
+  left: 0px;
+  position: absolute;
+  width: 197px;
+  background: white;
+  border-radius: 15px;
+  padding: 0 15px 15px 15px;
+  border: 1px solid #e1e4eb;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.custom_form {
+  position: relative;
+  background: white;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 115px;
+}
+.cus_input {
+  border: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 120px;
+  border: 1px solid #e1e4eb;
+}
+.cus_input1 {
+  border: 15px;
+  padding: 11px 41px;
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid #e1e4eb;
+}
+
+.cus_txt {
+  position: absolute;
+  top: 11px;
+  left: 72px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.crpyt-input-container {
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+.crpyt-input {
+  border-radius: 15px;
+  padding: 0 85px;
+  width: 100%;
+  height: 70px;
+  border: 1px solid #e1e4eb;
+}
+
+.currency {
+  border-radius: 15px;
+  padding: 0 30px;
+  width: 100%;
+  height: 70px;
+  border: 1px solid #e1e4eb;
+}
+.create-input {
+  border-radius: 15px;
+  padding: 0 30px;
+  width: 100%;
+  height: 70px;
+  border: 1px solid #e1e4eb;
+}
+.input-icons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: end;
+  flex-direction: row;
+}
+.crpyt-inputA {
+  position: absolute;
+  border-radius: 15px;
+  padding: 0 35px;
+  width: 100%;
+  height: 70px;
+  border: 1px solid #e1e4eb;
+}
+
+.crypt-input-list {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  padding: 30px 30px;
+  border: 1px solid #e1e4eb;
+  border-radius: 15px;
+}
+.crpyt-input1 {
+  top: 100px;
+  border-radius: 15px;
+  padding: 0 77px;
+  width: 100%;
+  height: 70px;
+  border: none;
+}
+.crpyt-input2 {
+  top: 100px;
+  border-radius: 15px;
+  padding: 0 77px;
+  width: 100%;
+  height: 70px;
+  border: none;
+}
+
+.input-icons1 {
+  position: absolute;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  top: 17px;
+  flex-direction: row;
+}
+.input-icons2 {
+  position: absolute;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  top: 84px;
+  flex-direction: row;
+}
+
+.input-icons-Ethe {
+  position: absolute;
+  padding: 0 30px 0 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: end;
+  top: 13px;
+  flex-direction: row;
+}
+
+.card-create-btn {
+  padding: 24px 66px;
+  background: #216af5;
+  box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 0.4);
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  border: none;
+  /* margin-top: 292px; */
+}
+
+/* ::placeholder {
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+} */
+.badge-container {
+  position: relative;
+}
+.badge-helper {
+  position: absolute;
+  left: 141px;
+  top: 48px;
+  max-width: 263px;
+  width: 100%;
+  padding: 20px 12px;
+  background: #ffffff;
+  border: 1px solid #e1e4eb;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 25px rgba(210, 211, 213, 0.21);
+  border-radius: 25px;
+}
+
+.dropdown_container {
+  position: relative;
+  margin-left: 20px;
+}
+.drop_list {
+  position: absolute;
+  width: 210px;
+  top: 82px;
+  background: white;
+  padding: 15px;
+  z-index: 1;
+  border: 1px solid #e1e4eb;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+
+  .drop-icon-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 15px 18px 23px;
+    border-radius: 11px;
+    border: 1px solid #e1e4eb;
+    width: 158px;
+    font-size: 13px !important;
+  }
+  .dropdown_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .sm-text {
+    font-size: 13px!important;
+  }
+  .drop_list {
+    width: 157px;
+    top: 71px;
+    background: white;
+    padding: 11px;
+    z-index: 1;
+    border: 1px solid #e1e4eb;
+    box-sizing: border-box;
+    border-radius: 11px;
+  }
+
+}
